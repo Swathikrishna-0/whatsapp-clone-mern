@@ -31,27 +31,27 @@ function Chat() {
         <p className="chat__message">
           <span className="chat__name">Swathi</span>
           This is a message
-          <span className="chat_timestamp">{new Date().toUTCString()}</span>
+          <span className="chat_timestamp">&nbsp;{new Date().toUTCString()}</span>
         </p>
         <p className="chat__message">
           <span className="chat__name">Swathi</span>
           This is a message
-          <span className="chat_timestamp">{new Date().toUTCString()}</span>
+          <span className="chat_timestamp">&nbsp;{new Date().toUTCString()}</span>
         </p>
         <p className="chat__message chat__receiver">
           <span className="chat__name">Madhu</span>
           This is a message
-          <span className="chat_timestamp">{new Date().toUTCString()}</span>
+          <span className="chat_timestamp">&nbsp;{new Date().toUTCString()}</span>
         </p>
         <p className="chat__message">
           <span className="chat__name">Swathi</span>
           This is a message
-          <span className="chat_timestamp">{new Date().toUTCString()}</span>
+          <span className="chat_timestamp">&nbsp;{new Date().toUTCString()}</span>
         </p>
         <p className="chat__message chat__receiver">
           <span className="chat__name">Swathi</span>
           This is a message
-          <span className="chat_timestamp">{new Date().toUTCString()}</span>
+          <span className="chat_timestamp">&nbsp;{new Date().toUTCString()}</span>
         </p>
       </div>
       <div className="chat__footer">
