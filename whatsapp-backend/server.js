@@ -28,7 +28,7 @@ app.use(cors())
 
 //DB config
 const connection_url =
-  "mongodb+srv://admin:<passwd>@cluster0.gsnapjw.mongodb.net/whatsappdb";
+  "mongodb+srv://admin:swathimadhu123@cluster0.gsnapjw.mongodb.net/whatsappdb";
 mongoose
   .connect(connection_url, {
     useNewUrlParser: true,
@@ -57,6 +57,8 @@ db.once("open", () => {
       pusher.trigger("messages", "inserted", {
         name: messageDetails.name,
         message: messageDetails.message,
+        timestamp: messageDetails.timestamp,
+        received:true
       });
     }
     else{
